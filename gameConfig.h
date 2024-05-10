@@ -15,7 +15,11 @@ struct
 		//The window is divded into 3 areas: toolbar, Working area, and statusbar
 		toolBarHeight=60,		//Tool Bar Height (distance from top of window to bottom line of toolbar)
 		toolbarItemWidth = 70,			//Width of each icon in toolbar
-		statusBarHeight=50;	//Status Bar Height
+		statusBarHeight=50	//Status Bar Height
+		//new by ebrahim
+		GameStatusHeight = 30,
+		GameStatusWidth = 1100,
+		seprator=13;	//Game status width and highet and seprator that keep verticl distance btween texts;	
 	
 	int remainingHeight = windHeight - toolBarHeight - statusBarHeight;
 
